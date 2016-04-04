@@ -50,7 +50,7 @@
                     }
                 });
 
-                $("#takeoff").click(function(){
+                /*$("#takeoff").click(function(){
                     console.log("Asking Server to send takeoff command to Ar Drone");
                     socket.emit('event',{name:"takeoff"});
                 });
@@ -65,12 +65,12 @@
                 $("#land").click(function(){
                     console.log("Asking Server to send land command to Ar Drone");
                     socket.emit('event',{name:"land"});
-                });
+                });*/
 
             }
             startArDRoneStream();
-            startCameraFeed();
-            startArDroneController();
+            //startCameraFeed();
+            //startArDroneController();
 
         })
     </script>
@@ -119,10 +119,7 @@
 <table>
     <tr>
         <td >
-            <button id="takeoff">Take Off</button>
-            <button id="spin">Start Spinning</button>
-            <button id="stop">Stop & Hover</button>
-            <button id="land">Land</button>
+
 
         </td>
         <td>
@@ -139,8 +136,7 @@
             <div id="placeholder"></div>
         </td>
         <td>
-            <h1>Laptop Camera Feed</h1>
-            <video id="live" width="640" height="360" autoplay></video>
+
         </td>
     </tr>
 </table>
