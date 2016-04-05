@@ -6,7 +6,6 @@ This is a simplified Node JS Browser Controller built on top of NodeJs
 It shows Feed from
  * Ar Drone Parrot 2
 
-and updates the battery level constantly
 
 References
 ------------
