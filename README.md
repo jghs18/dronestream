@@ -1,4 +1,4 @@
-AR Drone Browser Controller
+AR Drone Localhost Stream
 ==========================
 
 This is a simplified Node JS Browser Controller built on top of NodeJs
